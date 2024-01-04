@@ -1,19 +1,9 @@
 // const chalk = require("chalk");
 
-/****  Section 1👉 we need to do it in console ****/
-// alert("Welcome, to Complete JavaScript course");
-// console.log('Welcome, to complete JavaScript Course');
 
 
 
-/**** Section 2👉 Code Editor for writing JS ****/
-
-
-
-/**** Section 3👉 values and variables in JavaScript ****/
-
-
-// var myName = 'vinod bahadur thapa';
+// var myName = 'sujay varma';
 // var myAge = 26;
 
 // console.log(myage);
@@ -23,39 +13,34 @@
 
 
 // Naming Practice
-// var _myName = "vinod";
-// var 1myName = "thapa";
-// var _1my__Name = "bahadur";
-// var $myName = "thapa technical";
-// var myNaem% = "thapa technical";
+// var _myName = "sujay";
+// var 1myName = "varma";
+// var _1my__Name = "varma";
+// var $myName = "sujay varma";
+// var myNaem% = "sujay varma";
 
 // console.log(myNaem%);
 
 
 
-// // **********************************************************************
-
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
-
-// // **********************************************************************
 
 
 
-/**** Section 4👉 Data Types in JavaScript ****/
+
+/**** Data Types in JavaScript ****/
 
 
-// var myName = "vinod thapa";
+// var myName = "sujay varma";
 // console.log(myName);
 
 // var myAge = 26;
 // console.log(myAge);
 
-// var iAmThapas = false;
-// console.log(iAmThapas);
+// var iAmvarmas = false;
+// console.log(iAmvarmas);
 
 // // typeof operator 
-// console.log(typeof(iAmThapas));
+// console.log(typeof(iAmvarmas));
 
 
 // DataTypes Practice
@@ -68,20 +53,20 @@
 // " " + " "
 // console.log( " " + 0);
 // " " + 0
-// console.log("vinod" - "thapa")
+// console.log("sujay" - "varma")
 // console.log(true + true)
 // console.log(true + false)
 // console.log(false + true)
 // console.log(false - true)
 
 
-// console.log("vinod" - "thapa");
+// console.log("sujay" - "varma");
 
 
 
 
 
-// 🙋‍👨‍🏫 Interview Question 1 🙋‍👨‍🏫
+
 // Difference between null vs undefined? 
 
 
@@ -95,7 +80,6 @@
 // console.log(typeof(iAmStandBy));
 
 
-// 🙋‍👨‍🏫 Interview Question 2 🙋‍👨‍🏫
 // What is NaN?
 
 // NaN is a property of the global object. 
@@ -104,7 +88,7 @@
 
 
 // var myPhoneNumber = 9876543210;
-// var myName = "thapa technical";
+// var myName = "varma technical";
 
 // console.log(isNaN(myPhoneNumber));
 // console.log(isNaN(myName));
@@ -116,7 +100,7 @@
 
 
 
-// NaN Practice 🤯
+
 
   
 
@@ -132,7 +116,7 @@
 
 
 
-// 🙋‍👨‍🏫 Interview Question 1 🙋‍👨‍🏫
+
 // var vs let vs const 
 
 
@@ -145,14 +129,14 @@
 
 
 
-/**** Section 5👉 Arithmetic operators in JavaScript ****/
+/**** Arithmetic operators in JavaScript ****/
 
 
 
 // console.log(5+20);
 
 
-// 1️⃣Assignment operators
+//   Assignment operators
 // An assignment operator assigns a value to its left operand 
 // based on the value of its right operand. 
 // The simple assignment operator is equal (=)
@@ -175,7 +159,7 @@
 
 
 
-// 2️⃣Arithmetic operators
+//   Arithmetic operators
 // An arithmetic operator takes numerical values 
 // (either literals or variables) as their operands and 
 // returns a single numerical value.
@@ -192,7 +176,7 @@
 
 
 
-// 🙄Increment and Decrement operator
+// Increment and Decrement operator
 // Operator: x++ or ++x or x-- or --x
 // If used postfix, with operator after operand (for example, x++), 
 // the increment operator increments and returns the value before incrementing.
@@ -223,14 +207,13 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 
 
 
 
-// 3️⃣Comparison operators
+
+//   Comparison operators
 // A comparison operator compares its operands and 
 // returns a logical value based on whether the comparison is true.
 
@@ -262,7 +245,7 @@
 
 
 
-// 4️⃣ Logical operators
+//    Logical operators
 // Logical operators are typically used with Boolean (logical) values; 
 // when they are, they return a Boolean value.
 
@@ -293,14 +276,13 @@
 
 // // **********************************************************************
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
+
 
 // // **********************************************************************
 
 
 
-// 5️⃣ String Concatenation(operators)
+//    String Concatenation(operators)
 // The concatenation operator (+) concatenates two string values together, 
 // returning another string that is the union of the two operand strings.
 
@@ -309,17 +291,17 @@
 
 // console.log("hello " +  "world");
 
-// var myName = "vinod";
+// var myName = "sujay";
 
-// console.log(myName + " thapa");
+// console.log(myName + " varma");
 // console.log(myName + " bahadur");
-// console.log(myName + " bahadur Thapa");
+// console.log(myName + " bahadur varma");
 
 
 
 
 
-// 😳 4 Challenge Time 
+//   4   
 // What will be the output of 3**3? 
 // What will be the output, when we add a number and a string?
 // Write a program to swap two numbers?
@@ -333,7 +315,7 @@
 
 
 // sol 2:  ✔
-// console.log(5 + "thapa");
+// console.log(5 + "varma");
 
 // sol 3: ✔ 
 
@@ -367,7 +349,7 @@
 
 
 
-// 🙋‍👨‍🏫 Interview Question 4 🙋‍👨‍🏫
+//  ‍     Question 4  ‍  
 // What is the Difference between == vs === ?
 
 
@@ -394,9 +376,9 @@
 // ************************************************************
 
 
-/**** Section 6👉 Control Statement - 
+/****    6 Control Statement - 
  * 
- * 1️⃣If...Else */
+ *   If...Else */
 // The if statement executes a statement if a specified condition is truthy. 
 // If the condition is falsy, another statement can be executed.
 
@@ -416,7 +398,7 @@
 
 
 
-// 🤩Challenge Time 
+//    
 // write a program that works out whether if a given year is a leap year or not?
 // A normal year has 365 days, leap years have 366, with an extra day in February.
 
@@ -443,18 +425,18 @@
 // What is truthy and falsy values in Javascript?
 
 // we have total 5 falsy values in javascript
-// 👉 0,"",undefined,null,NaN,false** is false anyway
+//  0,"",undefined,null,NaN,false** is false anyway
 
 // if(score = 5){
-//   console.log("OMG, we loss the game 😭");
+//   console.log("OMG, we loss the game  ");
 // }else{
-//   console.log("Yay, We won the game 😀");
+//   console.log("Yay, We won the game   ");
 // }
 
 
 
 
-// 2️⃣Conditional (ternary) operator
+//   Conditional (ternary) operator
 
 // The conditional (ternary) operator is the only JavaScript operator 
 // that takes three operands
@@ -471,7 +453,7 @@
 
 
 
-// 3️⃣ switch Statement
+//    switch Statement
 // Evaluates an expression, matching the expression's value to a 
 // case clause, and executes statements associated with that case.
 
@@ -513,20 +495,20 @@
 
 
 
-// 🤗break
+//  break
 // Terminates the current loop, switch, or label 
 // statement and transfers 
 // program control to the statement following the terminated statement.
 
 
-// 🤗continue
+//  continue
 // Terminates execution of the statements in the current iteration of the 
 // current or labeled loop, and continues execution of the loop with the 
 // next iteration.
 
 
 
-// 4️⃣ While Loop Statement
+//    While Loop Statement
 // The while statement creates a loop that executes a specified statement 
 // as long as the test condition evaluates to true. 
 
@@ -537,7 +519,7 @@
 //   num++;
 // }
 
-// 5️⃣ Do-While Loop Statement
+//    Do-While Loop Statement
 
 // var num = 20;
 // do{
@@ -546,7 +528,7 @@
 //   num++;
 // }while(num <= 10);
 
-// 6️⃣ For Loop 
+//   For Loop 
 
 // for(var num = 0; num <= 10; num++){
 //     debugger;
@@ -554,7 +536,7 @@
 // }
 
 
-// 😀6: challenge Time 🏁
+//   6:    
 // JavaScript program to print table for given number (8)?
 
 // output :  8 * 1 = 8 
@@ -569,19 +551,18 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
+
 
 
 // ************************************************************
 
-/**** Section 5 👉 Functions in JavaScript ****/
+/****    5  Functions in JavaScript ****/
 
 // A JavaScript function is a block of code designed to perform a particular task.
 
 
 
-//  1️⃣Function Definition 
+//    Function Definition 
 
 // Before we use a function, we need to define it. 
 
@@ -606,7 +587,7 @@
 // }
 // // 
 
-// 2️⃣Calling functions
+//   Calling functions
 // Defining a function does not execute it.
 // A JavaScript function is executed when "something" invokes it (calls it).
 
@@ -621,7 +602,7 @@
 
 
 
-// 3️⃣ Function Parameter vs Function Arguments 
+//    Function Parameter vs Function Arguments 
 // Function parameters are the names listed in the function's definition. 
 // Function arguments are the real values passed to the function.
 
@@ -639,15 +620,13 @@
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 // // **********************************************************************
 
 
 
 
-// 🙋‍👨‍🏫 Interview Question 🙋‍👨‍🏫 
+//  ‍     Question  ‍   
 
 // Why Functions? 
 
@@ -668,7 +647,7 @@
 
 
 
-// 4️⃣ Function expressions
+//    Function expressions
 // "Function expressions simply means 
 // create a function and put it into the variable "
 
@@ -681,7 +660,7 @@
 
 
 
-// 5️⃣ Return Keyword
+//    Return Keyword
 // When JavaScript reaches a return statement, 
 // the function will stop executing.
 
@@ -698,7 +677,7 @@
 // console.log('the sum of two no is ' + funExp );
 
 
-// 6️⃣ Anonymous Function
+//   Anonymous Function
 
 // A function expression is similar to and has the same syntax 
 // as a function declaration One can define "named" 
@@ -722,39 +701,39 @@
 // ************************************************************
 
 
-// 👻 Now It's Time for Modern JavaScript 😍😍 
+//   Now It's Time for Modern JavaScript    
 
-// 🙏🙏 Features of ECMAScript 2015 also known as ES6 🙏🙏
+//    Features of ECMAScript 2015 also known as ES6   
 
-// 1️⃣ LET VS CONST  vs  VAR
+//    LET VS CONST  vs  VAR
 
-// var myName = "thapa technical";
+// var myName = "varma technical";
 // console.log(myName);
 
-// myName = "vinod thapa";
+// myName = "sujay varma";
 // console.log(myName);
 
-// let myName = "thapa technical";
+// let myName = "varma technical";
 // console.log(myName);
 
-// myName = "vinod thapa";
+// myName = "sujay varma";
 // console.log(myName);
 
 
-// const myName = "thapa technical";
+// const myName = "varma technical";
 // console.log(myName);
 
-// myName = "vinod thapa";
+// myName = "sujay varma";
 // console.log(myName);
 
 
 
 // function biodata() {
-//   const myFirstName = "Vinod";
+//   const myFirstName = "sujay";
 //   console.log(myFirstName);
 
 //   if(true){
-//     const myLastName = "thapa";
+//     const myLastName = "varma";
 //   }
 
 //   // console.log('innerOuter ' + myLastName);
@@ -772,7 +751,7 @@
 
 
 
-// 2️⃣ Template literals (Template strings) 
+//    Template literals (Template strings) 
 
 // JavaScript program to print table for given number (8)?
 
@@ -793,7 +772,7 @@
 
 
 
-// 3️⃣  Default Parameters
+//     Default Parameters
 // Default function parameters allow named parameters to be 
 // initialized with default values if no value or undefined is passed.
 
@@ -806,14 +785,14 @@
 
 
 
-// 4️⃣ Destructuring in ES6
+//    Destructuring in ES6
 // The destructuring assignment syntax is a JavaScript expression 
 // that makes it possible to unpack values from arrays, 
 // or properties from objects, into distinct variables.
 
-  //  ➡ Array Destructuring  🏁
+  //  ➡ Array Destructuring   
 
-  // const myBioData = ['vinod', 'thapa', 26];
+  // const myBioData = ['sujay', 'varma', 26];
 
   // let myFName = myBioData[0];
   // let myLName = myBioData[1];
@@ -829,10 +808,10 @@
 
 
 
-  // ➡ Object destructuring 🏁
+  // ➡ Object destructuring  
   // const myBioData = {
-  //   myFname : 'vinod',
-  //   myLname : 'thapa',
+  //   myFname : 'sujay',
+  //   myLname : 'varma',
   //   myAge : 26
   // }
 
@@ -846,11 +825,11 @@
 
 
 
-// 5️⃣ Object Properties 
+//    Object Properties 
 
 // ➡ we can now use Dynamic Properties 
 
-      // let myName = "vinod";
+      // let myName = "sujay";
       // const myBio = {
       //   [myName] : "hello how are you?",
       //   [20 + 6] : "is my age"
@@ -860,7 +839,7 @@
 
   // ➡ no need to write key and value, if both are same 
 
-  // let myName = "vinod thapa";
+  // let myName = "sujay varma";
   // let myAge = 26;
 
   // const myBio = {myName,myAge}
@@ -871,9 +850,9 @@
 
 
  
-// 6️⃣ Fat Arror Function 
+//   Fat Arror Function 
 
-// 👻 Normal Way of writing Function  
+//   Normal Way of writing Function  
 
 // console.log(sum()); 
 
@@ -883,7 +862,7 @@
 //  return `the sum of the two number is ${sum}`;
 // }
 
-// 👻 How to convert in into Fat Arrow Function 
+//   How to convert in into Fat Arrow Function 
 
 // const sum = () => `the sum of the two number is ${(a=5)+(b=6)}`;
 
@@ -897,7 +876,7 @@
 
 
 
-// 7️⃣Spread Operator
+//  Spread Operator
 
 // const colors = ['red', 'green', 'blue', 'white', 'pink'];
 
@@ -928,7 +907,7 @@
 // Object.values()
 // Object.entries()
 
-// const message = "my name is vinod";
+// const message = "my name is sujay";
 // console.log(message);
 // console.log(message.padStart(5));
 // console.log(message.padEnd(10));
@@ -985,7 +964,7 @@
 
 
 
-/**** Section 7👉 Arrays in JavaScript  ****/
+/****    7 Arrays in JavaScript  ****/
 
 // When we use var, we can stored only one value at a time. 
 // var friend1 = 'ramesh';
@@ -1000,7 +979,7 @@
 // In JavaScript, we have an Array class, and 
 // arrays are the prototype of this class. 
 
-// example 🏁
+// example  
 
 
 // var myFriends = ['ramesh',22,male,'arjun',20,male,'vishal',true, 52];
@@ -1009,14 +988,14 @@
 
 
 
-// 1️⃣ Array Subsection 1 👉 Traversal in array✌ 
+//    Array Sub   1  Traversal in array 
 // navigate through an array
 
 // if we want to get the single data at a time  and also 
 // if we want to change the data 
 
 
-// var myFriends = ['vinod','ramesh','arjun','vishal'];
+// var myFriends = ['sujay','ramesh','arjun','vishal'];
 
 // console.log(myFriends[myFriends.length - 1]);
 
@@ -1026,14 +1005,14 @@
 
 // we use for loop to navigate 
 
-// var myFriends = ['vinod','ramesh','arjun','vishal'];
+// var myFriends = ['sujay','ramesh','arjun','vishal'];
 // for(var i=0; i<myFriends.length; i++){
 //   console.log(myFriends[i]);
 // }
 
 // After ES6 we have for..in and for..of loop too 
 
-// var myFriends = ['vinod','ramesh','arjun','vishal'];
+// var myFriends = ['sujay','ramesh','arjun','vishal'];
 
 // for(let elements in myFriends){
 //   console.log(elements);
@@ -1043,10 +1022,10 @@
 //   console.log(elements);
 // }
 
-// Array.prototype.forEach() 🙋‍♂️
+// Array.prototype.forEach()   
 // Calls a function for each element in the array.
 
-// var myFriends = ['vinod','ramesh','arjun','vishal'];
+// var myFriends = ['sujay','ramesh','arjun','vishal'];
 
 // myFriends.forEach(function(element, index, array) {
 //       console.log(element + " index : " +
@@ -1061,52 +1040,52 @@
 
 
 
-// 2️⃣ Array Subsection 2 👉 Searching and Filter in an Array 
+//    Array Sub   2  Searching and Filter in an Array 
 
-// Array.prototype.indexOf() 🙋‍♂️
+// Array.prototype.indexOf()   
 
 // Returns the first (least) index of an element within the array equal 
 // to an element, or -1 if none is found. It search the element from the 
 // 0th index number 
 
-// var myFriendNames = ["vinod","bahadur","thapa","thapatechnical","thapa"];
+// var myFriendNames = ["sujay","bahadur","varma","varmatechnical","varma"];
 
-// console.log(myFriendNames.indexOf("Thapa", 3));
-
-
+// console.log(myFriendNames.indexOf("varma", 3));
 
 
 
-// Array.prototype.lastIndexOf() 🙋‍♂️
+
+
+// Array.prototype.lastIndexOf()   
 // Returns the last (greatest) index of an element within the array equal 
 // to an element, or -1 if none is found. It search the element last to first
 
-// var myFriendNames = ["vinod","bahadur","thapa","thapatechnical","thapa"];
+// var myFriendNames = ["sujay","bahadur","varma","varmatechnical","varma"];
 
-// console.log(myFriendNames.lastIndexOf("Thapa",3));
-
-
+// console.log(myFriendNames.lastIndexOf("varma",3));
 
 
 
 
 
-// Array.prototype.includes() 🙋‍♂️
+
+
+// Array.prototype.includes()   
 // Determines whether the array contains a value, 
 // returning true or false as appropriate.
 
-// var myFriendNames = ["vinod","bahadur","thapa","thapatechnical"];
+// var myFriendNames = ["sujay","bahadur","varma","varmatechnical"];
 
-// console.log(myFriendNames.includes("thapa"));
-
-
+// console.log(myFriendNames.includes("varma"));
 
 
 
 
 
 
-// Array.prototype.find() 🙋‍♂️
+
+
+// Array.prototype.find()   
 
 // arr.find(callback(element[, index[, array]])[, thisArg])
 
@@ -1126,15 +1105,14 @@
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
+
 
 // // **********************************************************************
 
 
 
 
-// Array.prototype.findIndex() 🙋‍♂️
+// Array.prototype.findIndex()   
 
 // Returns the found index in the array, if an element in the 
 // array satisfies the testing function, or -1 if not found.
@@ -1145,7 +1123,7 @@
 
 
 
-// Array.prototype.filter() 🙋‍♂️
+// Array.prototype.filter()   
 
 // Returns a new array containing all elements of the calling 
 // array for which the provided filtering function returns true.
@@ -1161,9 +1139,9 @@
 
 
 
-// 3️⃣ Array Subsection 3 👉 How to sort an Array
+//    Array Sub   3  How to sort an Array
 
-// Array.prototype.sort() 🙋‍♂️
+// Array.prototype.sort()   
 
 // The sort() method sorts the elements of an array in place and 
 //returns the sorted array. The default sort order is ascending, built 
@@ -1195,7 +1173,7 @@
 
 
 
-// 😀7: challenge Time  🏁
+//   7:     
 
 // 1: How to Sort the numbers in the array in ascending (up) and descending (down) order?
 
@@ -1251,7 +1229,7 @@
 
 // let aFruits = fruits.sort();
 
-// //Array.prototype.reverse() 🙋‍♂️
+// //Array.prototype.reverse()   
 // // The reverse() method reverses an array in place. 
 // // The first array element becomes the last, and 
 // // the last array element becomes the first.
@@ -1260,9 +1238,9 @@
 
 
 
-// 4️⃣ Array Subsection 4 👉 Perform CRUD
+//    Array Sub   4  Perform CRUD
 
-// Array.prototype.push() 🙋‍♂️
+// Array.prototype.push()   
 // The push() method adds one or more elements to the 
 // end of an array and returns the new length of the array.
 
@@ -1275,7 +1253,7 @@
 // console.log(animals);
 
 
-// Array.prototype.unshift() 🙋‍♂️
+// Array.prototype.unshift()   
 // The unshift() method adds one or more elements to the 
 // beginning of an array and returns the new length of the array.
 
@@ -1299,7 +1277,7 @@
 // console.log(myNumbers);
 
 
-// Array.prototype.pop() 🙋‍♂️
+// Array.prototype.pop()   
 // The pop() method removes the last element from an array and returns 
 // that element. This method changes the length of the array.
 
@@ -1310,7 +1288,7 @@
 // console.log(plants);
 
 
-// Array.prototype.shift() 🙋‍♂️
+// Array.prototype.shift()   
 // The shift() method removes the first element from an array and returns 
 // that removed element. This method changes the length of the array.
 
@@ -1321,13 +1299,10 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
+//   8:    
 
-// 😀8: challenge Time 🏁
-
-// Array.prototype.splice() 🙋‍♂️
+// Array.prototype.splice()   
 // Adds and/or removes elements from an array.
 
 // 1: Add Dec at the end of an array?
@@ -1373,9 +1348,9 @@
 
 
 
-// 5️⃣ Array Subsection 4 👉 Map and Reduce Method 
+//    Array Sub   4  Map and Reduce Method 
 
-// Array.prototype.map() 🙋‍♂️
+// Array.prototype.map()   
 
 // let newArray = arr.map(callback(currentValue[, index[, array]]) {
 //     // return element for newArray, after executing something
@@ -1408,8 +1383,7 @@
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
+
 
 // // **********************************************************************
 
@@ -1417,7 +1391,7 @@
 
 
 
-// 😀9: challenge Time 🏁
+//   9:    
 
 //  1: Find the square root of each element in an array?
 //  2: Multiply each element by 2 and return only those 
@@ -1443,7 +1417,7 @@
 
 
 
-// 👉 Reduce Method 
+//  Reduce Method 
 
 // flatten an array means to convert the 3d or 2d array into a 
 // single dimensional array 
@@ -1505,13 +1479,11 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 
 
 
-/**** Section 7👉 Strings in JavaScript  ****/
+/****    7 Strings in JavaScript  ****/
 
 // A JavaScript string is zero or more characters written inside quotes.
 
@@ -1521,27 +1493,27 @@
 // Strings can be created as primitives, 
 // from string literals, or as objects, using the String() constructor
 
-// let myName = "vinod thapa";
-// let myChannelName = 'vinod thapa';
+// let myName = "sujay varma";
+// let myChannelName = 'sujay varma';
 
-// // let ytName = new String("Thapa Technical");
-// let ytName = 'thapa technical';
+// // let ytName = new String("varma Technical");
+// let ytName = 'varma technical';
 
 // console.log(myName);
 // console.log((ytName));
 
 
 
-// 👉 How to find the length of a string
-// String.prototype.length 🙋‍♂️
+//  How to find the length of a string
+// String.prototype.length   
 // Reflects the length of the string. 
 
-// let myName = "vinod thapa";
+// let myName = "sujay varma";
 // console.log(myName.length);
 
 
 
-// 👉 Escape Character
+//  Escape Character
 
 // let anySentence = "We are the so-called \"Vikings\" from the north.";
 // console.log(anySentence);
@@ -1559,14 +1531,14 @@
 
 
 
-// 👉 Finding a String in a String
+//  Finding a String in a String
 
-// String.prototype.indexOf(searchValue [, fromIndex]) 🙋‍♂️
+// String.prototype.indexOf(searchValue [, fromIndex])   
 
 // The indexOf() method returns the index of (the position of) the first
 //  occurrence of a specified text in a string
 
-// const myBioData =  'I am the thapa Technical';
+// const myBioData =  'I am the varma Technical';
 // console.log(myBioData.indexOf("t", 6));
 
 
@@ -1578,12 +1550,12 @@
 
 
 
-// // String.prototype.lastIndexOf(searchValue [, fromIndex]) 🙋‍♂️
+// // String.prototype.lastIndexOf(searchValue [, fromIndex])   
 // // Returns the index within the calling String object of the 
 // // last occurrence of searchValue, or -1 if not found.
 
 
-// const myBioData =  'I am the thapa Technical';
+// const myBioData =  'I am the varma Technical';
 // console.log(myBioData.lastIndexOf("t", 6));
 
 
@@ -1598,14 +1570,14 @@
 
 
 
-// 👉 Searching for a String in a String
+//  Searching for a String in a String
 
-// String.prototype.search(regexp) 🙋‍♂️
+// String.prototype.search(regexp)   
 
 // The search() method searches a string for a specified 
 // value and returns the position of the match
 
-// const myBioData =  'I am the thapa Technical';
+// const myBioData =  'I am the varma Technical';
 // let sData = myBioData.search("technical");
 // console.log(sData);
 
@@ -1616,7 +1588,7 @@
 
 
 
-// 👉 Extracting String Parts
+//  Extracting String Parts
 
 // There are 3 methods for extracting a part of a string:
 
@@ -1624,7 +1596,7 @@
 // substring(start, end)
 // substr(start, length)
 
-// The slice() Method 🙋‍♂️
+// The slice() Method   
 // slice() extracts a part of a string and returns the extracted part 
 // in a new string.
 
@@ -1650,7 +1622,7 @@
 
 
 
-// 😀11: challenge Time 🏁
+//   11:    
 
 // Display only 280 characters of a string like the 
 // one used in Twitter?
@@ -1666,7 +1638,7 @@
 
 
 
-// The substring() Method 🙋‍♂️
+// The substring() Method   
 // substring() is similar to slice().
 
 // The difference is that substring() cannot accept 
@@ -1683,7 +1655,7 @@
 
 
 
-// The substr() Method 🙋‍♂️
+// The substr() Method   
 // substr() is similar to slice().
 
 // The difference is that the second parameter specifies the 
@@ -1700,16 +1672,16 @@
 
 
 
-// 👉 Replacing String Content() 
+//  Replacing String Content() 
 
-// String.prototype.replace(searchFor, replaceWith) 🙋‍♂️
+// String.prototype.replace(searchFor, replaceWith)   
 
 // The replace() method replaces a specified value 
 // with another value in a string.
 
-// let myBioData = `I am vinod bahadur thapa vinod`;
+// let myBioData = `I am sujay bahadur varma sujay`;
 
-// let repalceData = myBioData.replace('Vinod','VINOD');
+// let repalceData = myBioData.replace('sujay','sujay');
 // console.log(repalceData);
 // console.log(myBioData);
 
@@ -1720,7 +1692,7 @@
 // 2: By default, the replace() method replaces only 
 // the first match
 // 3:By default, the replace() method is case sensitive. 
-// Writing VINOD (with upper-case) will not work
+// Writing sujay (with upper-case) will not work
 
 
 
@@ -1728,7 +1700,7 @@
 
 
 
-//👉 Extracting String Characters
+// Extracting String Characters
 
 // There are 3 methods for extracting string characters:
 
@@ -1738,7 +1710,7 @@
 
 
 
-// The charAt() Method 🙋‍♂️
+// The charAt() Method   
 // The charAt() method returns the character at a 
 // specified index (position) in a string
 
@@ -1749,14 +1721,8 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
-
-
-
-
-// The charCodeAt() Method 🙋‍♂️
+// The charCodeAt() Method   
 // The charCodeAt() method returns the unicode of the 
 // character at a specified index in a string:
 
@@ -1776,7 +1742,7 @@
 
 
 
-// 😀12: challenge Time 🏁
+//   12:    
 
 // Return the Unicode of the last character in a string
 
@@ -1805,9 +1771,9 @@
 
 
 
-//👉  Other useful methods 
+//  Other useful methods 
 
-// let myName = "vinod tHapa";
+// let myName = "sujay varma";
 // console.log(myName.toUpperCase()); 
 // console.log(myName.toLowerCase());
 
@@ -1817,11 +1783,11 @@
 
 
 
-// The concat() Method 🙋‍♂️
+// The concat() Method   
 // concat() joins two or more strings
 
-// let fName = "vinod"
-// let lName = "thapa"
+// let fName = "sujay"
+// let lName = "varma"
 
 // console.log(fName + lName );
 // console.log(`${fName} ${lName}`);
@@ -1833,7 +1799,7 @@
 
 
 
-// String.trim() 🙋‍♂️
+// String.trim()   
 // The trim() method removes whitespace from both 
 // sides of a string
 
@@ -1861,25 +1827,25 @@
 
 
 
-/**** Section 8👉 Date and Time in JavaScript ****/
+/****    8 Date and Time in JavaScript ****/
 
 // JavaScript Date objects represent a single moment in time in a 
 // platform-independent format. Date objects contain a Number 
 // that represents milliseconds since 1 January 1970 UTC.
 
-// 👉 Creating Date Objects
+//  Creating Date Objects
 // There are 4 ways to create a new date object:
 
 // new Date()
 // new Date(year, month, day, hours, minutes, seconds, milliseconds)
 // // it takes 7 arguments
 // new Date(milliseconds)
-// // we cannot avoid month section 
+// // we cannot avoid month    
 // new Date(date string)
 
 
 
-// new Date() 🙋‍♂️
+// new Date()   
 // Date objects are created with the new Date() constructor.
 
 // let currDate = new Date(); 
@@ -1889,7 +1855,7 @@
 // console.log(new Date().toLocaleString()); // 9/11/2019, 1:25:01 PM
 // console.log(new Date().toString()); // Wed Sep 11 2019 13:25:01 GMT+0700 (GMT+07:00)
 
-// Date.now() 🙋‍♂️
+// Date.now()   
 // Returns the numeric value corresponding to the current time—the number 
 // of milliseconds elapsed since January 1, 1970 00:00:00 UTC
 
@@ -1897,7 +1863,7 @@
 // console.log(Date.now());
 
 
-// new Date(year, month, ...) 🙋‍♂️
+// new Date(year, month, ...)   
 // 7 numbers specify year, month, day, hour, minute, second, 
 // and millisecond (in that order)
 // Note: JavaScript counts months from 0 to 11.
@@ -1908,13 +1874,13 @@
 // console.log(d.toLocaleString());
 
 
-// new Date(dateString) 🙋‍♂️
+// new Date(dateString)   
 // new Date(dateString) creates a new date object from a date string
 
 // var d = new Date("October 13, 2021 11:13:00");
 // console.log(d.toLocaleString());
 
-// new Date(milliseconds) 🙋‍♂️
+// new Date(milliseconds)   
 // new Date(milliseconds) creates a new date object as zero time plus milliseconds:
 
 
@@ -1923,7 +1889,7 @@
 // var d = new Date(86400000*2);
 // console.log(d.toLocaleString());
 
-//👉 Dates Method
+// Dates Method
 
 // const curDate = new Date();
 
@@ -1948,7 +1914,7 @@
 
 
 
-//👉 Time Methods
+// Time Methods
 
 // const curTime = new Date();
 
@@ -1997,7 +1963,7 @@
 
 
 
-// Challenge Time NOT yet decided
+//   NOT yet decided
 // (function(){
 //   setInterval(()=> {
 //     console.log(new Date().toLocaleTimeString());
@@ -2006,33 +1972,29 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
-
-
-/**** Section 9👉 Math Object in JavaScript ****/
+/****    9 Math Object in JavaScript ****/
 
 // The JavaScript Math object allows you to perform mathematical tasks on numbers.
 
-// console.log(Math.PI); 🙋‍♂️
+// console.log(Math.PI);   
 // console.log(Math.PI);
 
-// Math.round() 🙋‍♂️
+// Math.round()   
 // returns the value of x rounded to its nearest integer
 
 // let num = 10.501;
 // console.log(Math.round(num));
 
 
-// Math.pow() 🙋‍♂️
+// Math.pow()   
 // Math.pow(x, y) returns the value of x to the power of y
 
 // console.log(Math.pow(2,3));
 // console.log(2**3);
 
 
-// Math.sqrt() 🙋‍♂️
+// Math.sqrt()   
 // Math.sqrt(x) returns the square root of x
 
 // console.log(Math.sqrt(25));
@@ -2040,7 +2002,7 @@
 // console.log(Math.sqrt(66));
 
 
-// Math.abs() 🙋‍♂️
+// Math.abs()   
 // Math.abs(x) returns the absolute (positive) value of x
 
 // console.log(Math.abs(-55));
@@ -2050,7 +2012,7 @@
 
 
 
-// Math.ceil() 🙋‍♂️
+// Math.ceil()   
 // Math.ceil(x) returns the value of x rounded up to its nearest integer
 
 // console.log(Math.ceil(4.51));
@@ -2060,7 +2022,7 @@
 
 
  
-// Math.floor()  🙋‍♂️
+// Math.floor()    
 // Math.floor(x) returns the value of x rounded down to its nearest integer
 
 // console.log(Math.floor(4.7)); 
@@ -2068,21 +2030,21 @@
 
 
 
-// Math.min() 🙋‍♂️
+// Math.min()   
 // Math.min() can be used to find the lowest value in a list of arguments
 
 // console.log(Math.min(0, 150, 30, 20, -8, -200));
 
 
 
-// Math.max() 🙋‍♂️
+// Math.max()   
 // Math.max() can be used to find the highest value in a list of arguments
 
 // console.log(Math.max(0, 150, 30, 20, -8, -200));
 
 
 
-// Math.random() 🙋‍♂️
+// Math.random()   
 // Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
 
 // console.log(Math.floor(Math.random()*10));
@@ -2090,7 +2052,7 @@
 
 
 
-// Math.round() 🙋‍♂️
+// Math.round()   
 // The Math.round() function returns the value of a number 
 // rounded to the nearest integer.
 
@@ -2099,7 +2061,7 @@
 
 
 
-// Math.trunc()  🙋‍♂️
+// Math.trunc()    
 // The trunc() method returns the integer part of a number
 
 // console.log(Math.trunc(4.6));
@@ -2118,57 +2080,49 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 
 
+//    10 Document Object model in JavaScript 
 
-
-
-
-// Section 10👉 Document Object model in JavaScript 
-
-// 1️⃣ Window is the main container or we can say the 
+//    Window is the main container or we can say the 
 // global Object and any operations related to entire 
 // browser window can be a part of window object. 
 
-// For ex 👉 the history or to find the url etc.
+// For ex  the history or to find the url etc.
 
-// 1️⃣ whereas the DOM is the child of Window Object
+//    whereas the DOM is the child of Window Object
 
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 // // **********************************************************************
 
 
 
-// 2️⃣ All the members like objects, methods or properties. 
+//    All the members like objects, methods or properties. 
 // If they are the part of window object then we do not refer 
 // the window object. Since window is the global object 
 // so you do not have to write down window. 
 // - it will be figured out by the runtime.
 
 // For example
-// 👉 window.screen or just screen is a small information 
+//  window.screen or just screen is a small information 
 // object about physical screen dimensions.
-// 👉 window.location giving the current URL
-// 👉 window.document or just document is the main object 
+//  window.location giving the current URL
+//  window.document or just document is the main object 
 // of the potentially visible (or better yet: rendered) 
 // document object model/DOM.
   
 
-// 2️⃣ Where in the DOM we need to refer the document, 
+//    Where in the DOM we need to refer the document, 
 // if we want to use the document object, methods or properties
 // For example
-// 👉 document.getElementById()
+//  document.getElementById()
 
 
-// 3️⃣ Window has methods, properties and object. 
+//    Window has methods, properties and object. 
 // ex setTimeout() or setInterval() are the methods 
 // where as Document is the object of the Window and 
 // It also has a screen object with properties 
@@ -2177,7 +2131,7 @@
 
 // Now, I know you have a doubt like we have seen the methods 
 // and object of the global object that is window. But What about
-// the properties of the Window Object 🤔
+// the properties of the Window Object   
 
 // so example of window object properties are
 // innerHeight, 
@@ -2190,16 +2144,16 @@
 
 // ************** DOM vs BOM *******************
 
-// 👉 The DOM is the Document Object Model, which deals with the document, 
+//  The DOM is the Document Object Model, which deals with the document, 
 // the HTML elements themselves, e.g. document and all traversal you 
 // would do in it, events, etc.
 
-// For Ex: 👨‍🏫
+// For Ex:   
 // change the background color to red
 // document.body.style.background = "red";
 
 
-// 👉 The BOM is the Browser Object Model, which deals with browser components 
+//  The BOM is the Browser Object Model, which deals with browser components 
 // aside from the document, like history, location, navigator and screen 
 // (as well as some others that vary by browser). OR 
 // In simple meaning all the Window operations which comes under BOM are performed 
@@ -2215,15 +2169,15 @@
 // but represent pure browser methods of communicating with the user.
 
 // alert(location.href); // shows current URL
-// if (confirm("Want to Visit ThapaTechnical?")) {
-//   location.href = "https://www.youtube.com/thapatechnical"; // redirect the browser to another URL
+// if (confirm("Want to Visit varmaTechnical?")) {
+//   location.href = "https://www.youtube.com/varmatechnical"; // redirect the browser to another URL
 // }
 
 
 
 
 
-// Section 3️⃣: Navigate through the DOM 
+//      : Navigate through the DOM 
 
 // 1: document.documentElement
       // returns the Element that is the root element of the document. 
@@ -2234,11 +2188,11 @@
 // 5: document.children (without text nodes, only regular Elements)
 // 6: document.childNodes.length
 
-// 👉 Practice Time 
+//  Practice Time 
 // How to check whether an element has child nodes or not?
 // we will use hasChildNodes()
 
-// 👉 Practice Time 
+//  Practice Time 
 // How to find the child in DOM tree 
 // firstChild vs firstElementChild
 // lastChild vs lastElementChild 
@@ -2251,11 +2205,11 @@
 // vs 
 // document.querySelector(".child-two").style.color = "yellow";
 
-// 👉 How to find the Parent Nodes 
+//  How to find the Parent Nodes 
 // document.body.parentNode
 // document.body.parentElement
 
-// 👉 How to find or access the siblings
+// How to find or access the siblings
 // document.body.nextSibling
 // document.body.nextElementSibling
 // document.body.previousSibling
@@ -2263,7 +2217,7 @@
 
 
 
-//SECTION 4️⃣:  How to search the Elements and the References 
+//How to search the Elements and the References 
 // We will see the new file 
 
 
@@ -2274,14 +2228,14 @@
 // **********************************************************************
 
 
-/**** Section 11👉 EVENTS in JavaScript ****/
+/****  EVENTS in JavaScript ****/
 
 
 // HTML events are "things" that happen to HTML elements.
 // When JavaScript is used in HTML pages, JavaScript can "react" on these events.
 
 
-// 👨‍🏫 HTML Events
+// HTML Events
 // An HTML event can be something the browser does, or something a user does.
 
 // Here are some examples of HTML events:
@@ -2298,7 +2252,7 @@
 
 
 
-// section 1️⃣ 4 ways of writing Events in JavaScript
+//       4 ways of writing Events in JavaScript
 
 // 1: using inline events alert();
 // 2: By Calling a funcion (We already seen and most common way of writing) 
@@ -2309,27 +2263,27 @@
 
 
 
-// section 2️⃣: What is Event Object?
+//      : What is Event Object?
 // Event object is the parent object of the event object. 
 // for Example 
 // MouseEvent, focusEvent, KeyboardEvent etc 
 
 
 
-// section ️3️⃣ MouseEvent in JavaScript
+//    ️   MouseEvent in JavaScript
 // The MouseEvent Object
 // Events that occur when the mouse interacts with the HTML 
 // document belongs to the MouseEvent Object.
 
 
 
-// section ️4️⃣ KeyboardEvent  in JavaScript
+//    ️   KeyboardEvent  in JavaScript
 // Events that occur when user presses a key on the keyboard, 
 // belongs to the KeyboardEvent Object.
 // https://www.w3schools.com/jsref/obj_keyboardevent.asp
 
 
-// Section 5️⃣ InputEvents in JavaScript 
+//       InputEvents in JavaScript 
 // The onchange event occurs when the value of an element has been changed.
 
 // For radiobuttons and checkboxes, the onchange event occurs when the 
@@ -2340,7 +2294,7 @@
 
 // **********************************************************************
 
-// 👉  JavaScript Timing Events
+//  JavaScript Timing Events
 
 // **********************************************************************
 
@@ -2358,28 +2312,24 @@
 // Same as setTimeout(), but repeats the execution of the function continuously.
 
 
-// 1️⃣ setTimeout()
+//    setTimeout()
 
-// 2️⃣clearTimeout()
+//   clearTimeout()
 
-// 3️⃣ setInterval()
+//    setInterval()
 
-// 4️⃣ clearInterval()
+//    clearInterval()
 
-
-
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
 
 
 // **********************************************************************
 
-// 👉 object oriented Javascript
+// object oriented Javascript
 
 // **********************************************************************
 
 
-// 1️⃣ What is Object Literal?
+//    What is Object Literal?
 
 // Object literal is simply a key:value pair data structure. 
 
@@ -2393,7 +2343,7 @@
 // 1st way 
 
   // let bioData = { 
-  //     myName : "thapatechnical",
+  //     myName : "varmatechnical",
   //     myAge : 26,
   //     getData : function(){
   //       console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
@@ -2405,7 +2355,7 @@
 // 2nd way no need to write functions as well after es6
 
 // let bioData = { 
-//   myName : "thapatechnical",
+//   myName : "varmatechnical",
 //   myAge : 26,
 //   getData (){
 //     console.log(`My name is ${bioData.myName} and my age is ${bioData.myAge}`);
@@ -2415,13 +2365,13 @@
 // bioData.getData();
 
 
-// 👉 What if we want object as a value inside an Object 
+// What if we want object as a value inside an Object 
 
 
 // let bioData = { 
 //   myName : {
-//     realName : "vinod",
-//     channelName : "thapa technical" 
+//     realName : "sujay",
+//     channelName : "varma technical" 
 //   },
 //   myAge : 26,
 //   getData (){
@@ -2435,7 +2385,7 @@
 
 
 
-// 2️⃣ What is this Object?
+//    What is this Object?
 
 // The definition  of "this" object is that it contain the current context. 
 
@@ -2457,7 +2407,7 @@
 
 // // ex 3 
 
-// var myNames = 'vinod';
+// var myNames = 'sujay';
 // function myName() {
 //     console.log(this.myNames);
 // }
@@ -2490,8 +2440,8 @@
 
 // let bioData = {
 //     myName : {
-//         realName : "vinod thapa",
-//         channelName : 'thapa technical'
+//         realName : "sujay varma",
+//         channelName : 'varma technical'
 //     },
 //     // things to remember is that the myName is the key and the object is act like a value 
 //     myAge : 26,
@@ -2515,24 +2465,24 @@
 
 // // **********************************************************************
 
-// // 👉 How JavaScript Works? Advanced and Asynchronous JavaScript
+// //  Advanced and Asynchronous JavaScript
 
 // // **********************************************************************
 
 
-// // Advanced JavaScript Section
+// // Advanced JavaScript   
 
-// // 1️⃣: Event Propagation (Event Bubbling and Event Capturing)
+// //   : Event Propagation (Event Bubbling and Event Capturing)
 
 // // check html file 
 
 
-// // 2️⃣: Higher Order Function
+// //   : Higher Order Function
 // // function which takes another function as an arguments is called HOF 
 // // wo function jo dusre function ko as an argument accept krta hai use HOF 
 
 
-// // 3️⃣: Callback Function
+// //   : Callback Function
 // // function which get passed as an argument to another function is called CBF 
 // // A callback function is a function that is passed as an argument to 
 // // another function, to be “called back” at a later time. 
@@ -2584,26 +2534,26 @@
 // // and add, sub and mult are called the callback function bcz they are passed 
 // // as an argument to another fucntion 
 
-// // InterView Question 
+// //   Question 
 // // Difference Between Higher Order Function and Callback Function ?
 
 
-// // 🏁🏁Asynchronous JavaScript
+// // Asynchronous JavaScript
 
 
-// // 6️⃣:   Synchronous JavaScript Prog 
+// // :   Synchronous JavaScript Prog 
 
 // 1work = 10min
 // 2work = 5s
 
 // const fun2 = () => {
-//   console.log(`Function 2️⃣ is called`);
+//   console.log(`Function  is called`);
 // }
 
 // const fun1 = () => {
 //   console.log(`Function 1 is called`);
 //   fun2();
-//   console.log(`Function 1 is called Again ✌`);
+//   console.log(`Function 1 is called Again `);
 // }
 
 // fun1();
@@ -2613,49 +2563,49 @@
 
 // const fun2 = () => {
 //   setTimeout(()=> {
-//       console.log(`Function 2️⃣  is called`);
+//       console.log(`Function  is called`);
 //   }, 2000);
 // }
 
 // const fun1 = () => {
 //   console.log(`Function 1 is called`);
 //   fun2();
-//   console.log(`Function 1 is called Again ✌`);
+//   console.log(`Function 1 is called Again`);
 // }
 
 // fun1();
 
 
-// //👻 What is Event Loop in JavaScript?
+// //What is Event Loop in JavaScript?
 // // ppt explain 
 
 
-// // 5️⃣ Hoisting in JavaScript 
+// //  Hoisting in JavaScript 
 
 // // we have a creation phase and execution phase.
 
 // // Hoisting in Javascript is a mechanism where variables and functions
 // // declarations are moved to the top of their scope before the code execute.
 
-// For Example 👇
+// For Example 
 // console.log(myName);
 // let myName;
-// myName = "thapa";
+// myName = "varma";
 
 // // How it will be in output during creation phase 
 
 // 1: var myName = undefined;
 // 2: console.log(myName);
-// 3: myName = "thapa";
+// 3: myName = "varma";
 
 
-// //😲 In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword 
+// //In ES2015 (a.k.a. ES6), hoisting is avoided by using the let keyword 
 // // instead of var. (The other difference is that variables declared 
 // // with let are local to the surrounding block, not the entire function.)
 
 
 
-// // 6️⃣ What is Scope Chain and Lexical Scoping in JavaScript? 
+// // What is Scope Chain and Lexical Scoping in JavaScript? 
 
 // // The scope chain is used to resolve the value of variable names 
 // // in JS.
@@ -2670,7 +2620,7 @@
 // // their parent functions variables But the vice-versa is not true.
 
 
-// // For Example 👇
+// // For Example 
 
 // let a = "Hello guys. "; // global scope
 
@@ -2678,7 +2628,7 @@
 //   let b = " How are you?"
  
 //     const second = () => {
-//       let c = " Hii, I am fine thank you🙏";
+//       let c = " Hii, I am fine thank you";
 //       console.log(a+b+c);
 //     }
 //     second();
@@ -2689,7 +2639,7 @@
 
 
 
-// // 7️⃣ What is Closures in JavaScript 🤔
+// // 7 What is Closures in JavaScript 
 
 // // A closure is the combination of a function bundled together (enclosed) with references 
 // // to its surrounding state (the lexical environment). 
@@ -2699,7 +2649,7 @@
 
 // // In JavaScript, closures are created every time a function is created, at function creation time.
 
-// // For Example 👇
+// // For Example 
 
 // const outerFun = (a) => {
 //     let b = 10;
@@ -2713,7 +2663,7 @@
 
 // // it same like lexical scoping 
 
-// // One more Example 👇
+// // One more Example 
 
 // const outerFun = (a) => {
 //   let b = 10;
@@ -2728,11 +2678,11 @@
 
 // "use strict"
 
-// let x = "vinod";
+// let x = "sujay";
 // console.log(x);
 
 
-// //🏁🏁🏁 Back To Advanced JavaScript 
+// //Back To Advanced JavaScript 
 
 
 
@@ -2746,27 +2696,24 @@
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
-
 // // **********************************************************************
 
 
 
-// // 8️⃣: CallBack Hell 
+// //   : CallBack Hell 
 
 // setTimeout(()=>{
-//     console.log(`1️⃣ works is done`);    
+//     console.log(`   works is done`);    
 //     setTimeout(()=>{
-//         console.log(`2️⃣ works is done`); 
+//         console.log(`   works is done`); 
 //         setTimeout(()=>{
-//             console.log(`3️⃣ works is done`);  
+//             console.log(`   works is done`);  
 //             setTimeout(()=>{
-//                 console.log(`4️⃣ works is done`); 
+//                 console.log(`   works is done`); 
 //                 setTimeout(()=>{
-//                     console.log(`5️⃣ works is done`);   
+//                     console.log(`   works is done`);   
 //                     setTimeout(()=>{
-//                         console.log(`6️⃣ works is done`);    
+//                         console.log(`  works is done`);    
 //                     }, 1000) 
 //                 }, 1000)   
 //             }, 1000)  
@@ -2776,18 +2723,14 @@
 
 
 
-// 👉 // 🤩 Please SUBSCRIBE TO THAPA TECHNICAL YOUTUBE CHANNEL 🤩
-//  👉 // 🤩  https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA
+// // **********************************************************************
+
 
 
 // // **********************************************************************
 
-// // 👉 // 🤩 Bonus JSON 🤩
 
-// // **********************************************************************
-
-
-// // 👉 JSON.stringify turns a JavaScript object into JSON text and 
+// //  JSON.stringify turns a JavaScript object into JSON text and 
 // stores that JSON text in a string, eg:
 
 // var my_object = { key_1: "some text", key_2: true, key_3: 5 };
@@ -2801,7 +2744,7 @@
 // "string" 
 
 
-// // 👉 JSON.parse turns a string of JSON text into a JavaScript object, eg:
+// //  JSON.parse turns a string of JSON text into a JavaScript object, eg:
 
 // var object_as_string_as_object = JSON.parse(object_as_string);  
 // // {key_1: "some text", key_2: true, key_3: 5} 
@@ -2811,7 +2754,7 @@
 
 
 
-// // 7️⃣ AJAX Call using XMLHttprequest 
+// //   AJAX Call using XMLHttprequest 
 
 // // how to handled with the events and callback 
 
