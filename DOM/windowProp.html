@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+body {
+ font-family: 'Inconsolata', sans-serif;
+ background: #2a364f;
+ display: grid;
+ place-items: center;
+}
+
+button{
+   display: inline-block;
+   background: #F8B627;
+   color: #F4F4F4;
+   font-size: 16px;
+   font-weight: normal;
+   width: 132px;
+   text-align: center;
+   border-radius: 3px;
+   transition: 400ms;
+   text-decoration: none;
+   padding: 10px 22px;
+   z-index: 100000;
+   outline: none;
+   border: none;
+}
+
+
+p{
+ text-align: center;
+ color: rgba(255,255,255,0.8);
+}
+
+h1{
+   color:aquamarine;
+}
+
+   </style>
+  </head>
+<body>
+
+<p>Click the button to display this frame's height and width.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The innerWidth and innerHeight properties are not supported in IE8 and earlier.</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+}
+</script>
+
+</body>
+</html>

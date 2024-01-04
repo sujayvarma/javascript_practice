@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+ 
+ body {
+   font-family: 'Inconsolata', sans-serif;
+   background: #2a364f;
+   display: grid;
+   place-items: center;
+ }
+ 
+ button{
+     display: inline-block;
+     background: #F8B627;
+     color: #F4F4F4;
+     font-size: 16px;
+     font-weight: normal;
+     width: 132px;
+     text-align: center;
+     border-radius: 3px;
+     transition: 400ms;
+     text-decoration: none;
+     padding: 10px 22px;
+     z-index: 100000;
+     outline: none;
+     border: none;
+ }
+ 
+ 
+ p,form{
+   text-align: center;
+   color: rgba(255,255,255,0.8);
+ }
+
+ h1{
+     color:aquamarine;
+ }
+
+ button{
+     cursor: pointer;
+ }
+ 
+     </style>
+</head>
+<body>
+
+    <p class="para">Plz like the video </p>
+    <p class="para">Plz Share this video</p>
+    <p>Don't forget to subscribe my Channel </p>
+    <h1 id="heading">changed the content of the h1</h1>
+
+    <form action="">
+        <label for="">male</label>
+        <input type="radio" name="gender" id=""> 
+        <label for="">female</label>
+        <input type="radio" name="gender" id=""> 
+        <label for="">malefemale</label>
+        <input type="radio" name="gender" id=""> 
+
+    </form>
+    <br>
+
+    <button onclick="changeContent()">click Me</button>
+
+    <script>
+ const changeContent = () => {
+    // we can directly write 
+  //   document.getElementById('heading').innerHTML = "welcome to thapa"; 
+            
+ // by taking the Reference, heading is the object here
+    //    const headingchange = document.getElementById('heading');
+    //    headingchange.innerHTML = "welcome to thapa"; 
+
+    // console.log( document.getElementsByClassName('para'));
+
+    // console.log( document.getElementsByTagName('p') );
+
+    // console.log( document.getElementsByName('gender') );
+
+ // 👻 Now the same we have is the query selectors 👻
+  // querySelector returns the first matching value whereas
+ // querySelectorAll() will return all the elements 
+
+    // console.log(document.querySelectorAll('#heading'));
+           
+   }
+    </script>
+</body>
+</html>
